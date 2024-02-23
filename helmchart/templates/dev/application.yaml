@@ -6,7 +6,7 @@ metadata:
 spec:
   project: {{ .Values.projname }}
   source:
-    repoURL: git@github.com:O-clock-Hati/challenge-s15-e08-NunoMars.git
+    repoURL: git@github.com:O-clock-Hati/challenge-final-NunoMars.git
     path: helmchart
     targetRevision: {{ .Values.environement }}
   destination:

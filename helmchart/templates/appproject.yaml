@@ -6,8 +6,8 @@ metadata:
 spec:
   description: {{ .Values.appname }}
   sourceRepos:
-  - https://github.com/O-clock-Hati/challenge-s15-e08-NunoMars.git
+  - git@github.com:NunoMars/iac-final.git
   destinations:
   - name: in-cluster
-    namespace: {{ .Values.namespace }}
+    namespace: {{ .Values.namespaceiaac }}
     server: https://kubernetes.default.svc

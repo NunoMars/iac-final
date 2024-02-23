@@ -7,3 +7,5 @@ namespace: "nuno"
 environement: "prod"
 projname: "final-app-multidev"
 pvcname: "nuno-pvc-prod"
+namespaceiaac: "nuno"
+```
